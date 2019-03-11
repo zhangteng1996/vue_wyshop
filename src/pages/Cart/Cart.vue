@@ -32,7 +32,7 @@
    top 0
    bottom 0
    width 100%
-   background-color #f4f4ff
+   background-color #f4f4f4
    .cart-header
      width 100%
      height 88px

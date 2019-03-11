@@ -164,6 +164,30 @@
       border-radius: 4px
       .iconfont
         font-size .4rem
+    .register-phone
+      color: #333;
+      font-size: .37333rem;
+      text-align: center;
+    .login-other
+      margin-top 5rem
+      font-size: .4rem;
+      line-height: .53333rem;
+      height: .53333rem;
+      color: #7F7F7F;
+      margin-left: .06667rem;
+      display flex
+      justify-content center
+      .iconfont
+        font-size: .48rem;
+      .wchat
+        width 2.33333rem
+        border-right 2px solid
+      .qq
+        width 2.33333rem
+        border-right 2px solid
+      .weibo
+        width 2.33333rem
+
 
 
 

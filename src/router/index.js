@@ -5,6 +5,7 @@ import VueRouter from 'vue-router'
 import Index from '../pages/Index/Index.vue'
 import Cart from '../pages/Cart/Cart.vue'
 import Cate from '../pages/Cate/Cate.vue'
+import CateList from '../pages/Cate/CateList.vue'
 import Search from '../pages/Search/Search.vue'
 import Topic from '../pages/Topic/Topic.vue'
 import Login from '../pages/Login/Login.vue'
@@ -24,7 +25,15 @@ export default new VueRouter({
     },
     {
       path:'/Cate',
-      component:Cate
+      component:Cate,
+      redirect: '/cate/cateList',
+      children: [
+        {
+          name: 'cateList',
+          path: '/cate/cateList',
+          component: CateList,
+        }
+      ]
     },
     {
       path:'/Search',
