@@ -24,7 +24,11 @@
       </div>
       <div class="header-nav-wrapper">
         <ul class="header-nav">
+          <li class="header-nav-item active">
+            <span>推荐</span>
+          </li>
           <li class="header-nav-item">
+            <span>收纳秘诀</span>
           </li>
         </ul>
       </div>
@@ -37,7 +41,6 @@
 </template>
 
 <script>
-  import {mapState} from 'vuex'
     export default {
 
     }

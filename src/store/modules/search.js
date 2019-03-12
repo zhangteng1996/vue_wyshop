@@ -23,7 +23,6 @@ const actions = {
     if (result.code === '200') {
       commit(RECRIVE_INITSEARCH, {initSearch})
     }
-    // typeof cb === 'function' && cb()
   }
 }
 

@@ -1,7 +1,7 @@
 <template>
   <div>
    <router-view/>
-    <FooterGuide/>
+    <FooterGuide v-if="!$route.path.includes('login') && !$route.path.includes('search')"/>
   </div>
 </template>
 

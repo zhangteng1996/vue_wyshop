@@ -115,7 +115,6 @@
       padding-right .02rem
       .goCart
         float right
-
         .iconfont
           display block
           font-size .6rem
