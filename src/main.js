@@ -11,6 +11,7 @@ import './mock/mockServer'
 //注册store
 import store from './store'
 import Split from './components/Split/Split.vue'
+import LoginTemplate from './components/LoginTemplate/LoginTemplate.vue'
 import error from '../static/error.jpg'
 import loading from '../static/loading.gif'
 // 利用插件实现图片懒加载
@@ -23,7 +24,7 @@ Vue.use(VueLazyLoad,{
 
 // 注册为全局组件标签
 Vue.component('Split', Split);
-
+Vue.component('LoginTemplate',LoginTemplate);
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

@@ -7,6 +7,7 @@ import Cart from '../pages/Cart/Cart.vue'
 import Topic from '../pages/Topic/Topic.vue'
 import CateList from '../pages/Cate/CateList.vue'
 import Login from '../pages/Login/Login.vue'
+import PhoneLogin from '../pages/Login/PhoneLogin.vue'
 import Search from '../pages/Search/Search.vue'
 
 
@@ -45,6 +46,14 @@ export default [
     meta: {
       isShow: false
     },
+    children: [
+      // 二级路由
+      {
+        name: 'loginByPhone',
+        path: '/login/phone',
+        component: PhoneLogin,
+      },
+    ]
   },
 
   {
